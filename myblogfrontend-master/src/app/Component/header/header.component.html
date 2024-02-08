@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand-lg" style="background-color: #ADBC9F;">
+  <div class="container-fluid" style="background-color:  #ADBC9F; height:70px;">
+    <a class="navbar-brand" routerLink="">
+        <img src="./assets/logo1.png" width="120" height="40" class="d-inline-block align-text-top" >
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="posts" ><b>All Posts</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="addpost" ><b>Create a Post</b></a>
+        </li>
+      </ul>
+      <button href="#" class="login-button" (click)="toggleVis()"  routerLink="/">logout</button>
+    </div>
+  </div>
+</nav>
